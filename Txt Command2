@@ -1,0 +1,27 @@
+List the local branches:
+
+git branch
+
+Create a new branch with the name "feature/AddTwitterHandle":
+
+git branch feature/AddTwitterHandle
+
+Checkout the new branch:
+
+git checkout feature/AddTwitterHandle
+
+Checkout the main branch:
+
+git checkout main
+
+Merge changes from the feature branch into the main branch. This command assumes that you have the main branch checked out:
+
+git merge feature/AddTwitterHandle
+
+Show a graph when showing the history:
+
+git log --pretty=oneline --graph
+
+Now you know how to branch and merge your code, which can be helpful when you want to work on different features in parallel.
+
+In the next section, you will learn how to push your code to a remote repository on GitHub. But before that, let's test your knowledge with some learning questions.
